@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react-native",
+    "sourceMap": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "target": "esnext",
+    "noEmit": true,
+    "lib": ["es2017", "esnext.asynciterable"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "expo": ["node_modules/@types/expo", "node_modules/expo"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
